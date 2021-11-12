@@ -1,4 +1,4 @@
-# Object_recognition
+# Object detection WEB APP
 
 ## 1. Introduction
 
