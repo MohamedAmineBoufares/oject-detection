@@ -1,0 +1,35 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.camera {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 640;
+  height: 480;
+}
+
+.camera-index8 {
+  z-index: 8;
+}
+
+.camera-index9 {
+  z-index: 9;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  
+}
