@@ -1,5 +1,6 @@
 const DrawRect = (detections, ctx) => {
   // Loop through each prediction
+
   detections.forEach((prediction) => {
     // Extract boxes and classes
     const [x, y, width, height] = prediction["bbox"];

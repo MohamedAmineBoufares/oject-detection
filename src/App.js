@@ -1,15 +1,18 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 
 import * as tf from "@tensorflow/tfjs";
 
 import Webcam from "react-webcam";
 
 import "./App.css";
+
 import RunModel from "./utils/RunModel";
 
 function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
+
+  console.log(tf);
 
   useEffect(() => {
     RunModel(webcamRef, canvasRef);
